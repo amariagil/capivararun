@@ -1040,7 +1040,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1101,7 +1101,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1304, y: 150, z: -2}
+  m_LocalPosition: {x: 1304, y: 150, z: -3}
   m_LocalScale: {x: 1845.345, y: 548.78516, z: 548.78516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jogador: {fileID: 975179107}
-  deslocamento: {x: 0, y: 0, z: 0}
+  deslocamento: {x: 0, y: 5, z: -10}
   v: 0.125
 --- !u!1 &524365104
 GameObject:
@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 617211597}
   - component: {fileID: 617211596}
   m_Layer: 0
-  m_Name: New Piskel (8)
+  m_Name: arvore1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1721,7 +1721,7 @@ Transform:
   m_GameObject: {fileID: 975179103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1029, y: 48, z: -1}
+  m_LocalPosition: {x: 1024.6, y: 49, z: -2}
   m_LocalScale: {x: -15.347276, y: -15.347276, z: -15.347276}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1986,7 +1986,7 @@ GameObject:
   - component: {fileID: 1204465057}
   - component: {fileID: 1204465056}
   m_Layer: 0
-  m_Name: New Piskel (9)
+  m_Name: galho1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2144,7 +2144,7 @@ GameObject:
   - component: {fileID: 1339631263}
   - component: {fileID: 1339631262}
   m_Layer: 0
-  m_Name: New Piskel (10)
+  m_Name: galho2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
