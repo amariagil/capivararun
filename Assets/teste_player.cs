@@ -2,25 +2,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 100f;// Velocidade de movimento
-    public float jumpForce = 5f;  // Força do pulo
-    private Rigidbody2D rb;            // Componente Rigidbody2D do jogador
+    public float v = 100f;
+    public float pulo = 80f;  
+    private Rigidbody2D rb;          
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();  // Obtém o Rigidbody2D do jogador
+        rb = GetComponent<Rigidbody2D>();  
     }
 
     void Update()
     {
-        // Movimento horizontal (setas esquerda e direita)
-        float moveInput = Input.GetAxis("Horizontal");  // Acessa as setinhas (esquerda/direita)
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);  // Define a velocidade no eixo X
+        
+        float setas_horizontais = Input.GetAxis("Horizontal"); 
+        rb.velocity = new Vector2(setas_horizontais * v, rb.velocity.y);  
 
-        // Verifica se o jogador está no chão e o comando de pular (barra de espaço)
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);  // Adiciona a força para pular no eixo Y
+            rb.velocity = new Vector2(rb.velocity.x, pulo);  
         }
     }
 

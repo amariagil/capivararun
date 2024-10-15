@@ -1,23 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class seguir_jogador : MonoBehaviour
 {
-    public Transform player;  // Referência ao jogador
-    public Vector3 offset;    // Distância entre a câmera e o jogador
-    public float smoothSpeed = 0.125f;  // Suavidade do movimento da câmera
+    public Transform jogador;  
+    public Vector3 deslocamento;    
+    public float v = 0.125f; 
 
     void LateUpdate()
     {
-        // Posição desejada da câmera (baseada na posição do jogador + o offset)
-        Vector3 desiredPosition = player.position + offset;
+        Vector3 posicao_camera = jogador.position + deslocamento;
 
-        // Suaviza o movimento da câmera para não ser abrupto
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        Vector3 seguindo_camera = Vector3.Lerp(transform.position, posicao_camera, v);
 
-        // Atualiza a posição da câmera
-        transform.position = smoothedPosition;
+        transform.position = seguindo_camera;
     }
 }
  
