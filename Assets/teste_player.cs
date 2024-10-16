@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float v = 100f;
-    public float pulo = 80f;  
+    public float v = 5f;
+    public float pulo = 10f;  
     private Rigidbody2D rb;          
 
     void Start()
