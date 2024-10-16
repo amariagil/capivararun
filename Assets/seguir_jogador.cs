@@ -17,5 +17,6 @@ public class seguir_jogador : MonoBehaviour
 
         transform.position = seguindo_camera;
     }
+
 }
- 
+
