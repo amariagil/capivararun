@@ -1,0 +1,1016 @@
+fileFormatVersion: 2
+guid: 412b22c675f0c7b4f943b46432027749
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 254
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc213a287508a7408edc066d1f094ca
+      internalID: 251326367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 254
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78b0b28549d8334d94c84bf26201c4c
+      internalID: 2100120997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 254
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9d40f3087882a4eb6c3daac97b77b7
+      internalID: -1678405828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 308
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1adc158c03075343a8477ed008479ee
+      internalID: 1975974375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 313
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0608f3ee732a914e97d14744c8f3a2f
+      internalID: -1352765153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 318
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5a1f274efbb2a4881653f3459f1d67
+      internalID: 269691215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 254
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c8c5c587e7f914581eba82fb3e0592
+      internalID: 1635408594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 254
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8510c9dc342489458bee7ff972ded35
+      internalID: 1075585277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 254
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc350af8ca3f63479801286370087ef
+      internalID: 1539246947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 243
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1117108f22c20744963497994aaca47
+      internalID: -940221628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 243
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac4056fdfc08e74ca1110b401735001
+      internalID: 546904155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 243
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2d0ea87546a4f4582d0808dd75f323
+      internalID: -235363410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 243
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c126f8088537394e83c6ed043c99ddf
+      internalID: -1932244384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 242
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606b7cbb8363664fb07d05799b37c49
+      internalID: -341400131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 211
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf78271202c174bab030d4d9bdf618
+      internalID: -1193910564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 193
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa15b236f499364dbd1f73244ee03fc
+      internalID: 1299668268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 196
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df4836b45c69df48aa34d6e424f4441
+      internalID: -335860495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 206
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0a5191a04a7a4fab6ceecbdda9a3c
+      internalID: -155876944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 142
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b05f548f616854e94f0e46875e2cfb
+      internalID: -850458984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 142
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d52590be48ee8140a9580d95845fa55
+      internalID: -608672312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 142
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19cca55d1a8e8544b53a6d2d5e08190
+      internalID: 954624790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 142
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa42a9d312ccc4489193ae5fd12b39a
+      internalID: -1679623434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 142
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df80819d92282e4e9d7d86a92c7c303
+      internalID: 1257265957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 142
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ab67fa49761ff4fa5b48aadf201d42
+      internalID: -811904626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 131
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ea4635c71f42246a5e066834323a8b
+      internalID: -1703716589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9db08f533c3048a6dee9f216e692a
+      internalID: 131039519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b392859908727d469e0548f02e34200
+      internalID: -1356696464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6b44ffc91a2584c90103d438bd33e4
+      internalID: -94738655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23d6f52d629c1e49b7c3faa964a3673
+      internalID: -1944124704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 105
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c651abdf39871f488dc22d46966d9e7
+      internalID: -2122954048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 108
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a2139da534052448fcb5ada8cde0fb
+      internalID: -58335302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 99
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c152c470f9f624d930b93373ae5047
+      internalID: -600240127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 30
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2805d539630cd6f43a6efa0d04a6d639
+      internalID: -1623019693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 30
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd568eaa9a7ef439dd0c1f07abb8a3
+      internalID: 1056493697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 30
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c3d05cb8841340b7c9366b412c989
+      internalID: 864800907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 30
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4a5a634933e184ea909623cfa6ec47
+      internalID: -834338371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 30
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d046bcca172ea46a72f6983dd79302
+      internalID: 295848937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 30
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702930cde5a826642a091427614f90ff
+      internalID: -526860271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44712f6f4e81bb841bf209521bdf1a58
+      internalID: -1924768420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6584af2d0bc0cb0478868066acec6bbb
+      internalID: 1673433111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FogoSpriteSheet-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 18
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5781460a36330704db49b08c9f951232
+      internalID: 1433087506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FogoSpriteSheet-removebg-preview_0: 251326367
+      FogoSpriteSheet-removebg-preview_1: 2100120997
+      FogoSpriteSheet-removebg-preview_10: 546904155
+      FogoSpriteSheet-removebg-preview_11: -235363410
+      FogoSpriteSheet-removebg-preview_12: -1932244384
+      FogoSpriteSheet-removebg-preview_13: -341400131
+      FogoSpriteSheet-removebg-preview_14: -1193910564
+      FogoSpriteSheet-removebg-preview_15: 1299668268
+      FogoSpriteSheet-removebg-preview_16: -335860495
+      FogoSpriteSheet-removebg-preview_17: -155876944
+      FogoSpriteSheet-removebg-preview_18: -850458984
+      FogoSpriteSheet-removebg-preview_19: -608672312
+      FogoSpriteSheet-removebg-preview_2: -1678405828
+      FogoSpriteSheet-removebg-preview_20: 954624790
+      FogoSpriteSheet-removebg-preview_21: -1679623434
+      FogoSpriteSheet-removebg-preview_22: 1257265957
+      FogoSpriteSheet-removebg-preview_23: -811904626
+      FogoSpriteSheet-removebg-preview_24: -1703716589
+      FogoSpriteSheet-removebg-preview_25: 131039519
+      FogoSpriteSheet-removebg-preview_26: -1356696464
+      FogoSpriteSheet-removebg-preview_27: -94738655
+      FogoSpriteSheet-removebg-preview_28: -1944124704
+      FogoSpriteSheet-removebg-preview_29: -2122954048
+      FogoSpriteSheet-removebg-preview_3: 1975974375
+      FogoSpriteSheet-removebg-preview_30: -58335302
+      FogoSpriteSheet-removebg-preview_31: -600240127
+      FogoSpriteSheet-removebg-preview_32: -1623019693
+      FogoSpriteSheet-removebg-preview_33: 1056493697
+      FogoSpriteSheet-removebg-preview_34: 864800907
+      FogoSpriteSheet-removebg-preview_35: -834338371
+      FogoSpriteSheet-removebg-preview_36: 295848937
+      FogoSpriteSheet-removebg-preview_37: -526860271
+      FogoSpriteSheet-removebg-preview_38: -1924768420
+      FogoSpriteSheet-removebg-preview_39: 1673433111
+      FogoSpriteSheet-removebg-preview_4: -1352765153
+      FogoSpriteSheet-removebg-preview_40: 1433087506
+      FogoSpriteSheet-removebg-preview_5: 269691215
+      FogoSpriteSheet-removebg-preview_6: 1635408594
+      FogoSpriteSheet-removebg-preview_7: 1075585277
+      FogoSpriteSheet-removebg-preview_8: 1539246947
+      FogoSpriteSheet-removebg-preview_9: -940221628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
