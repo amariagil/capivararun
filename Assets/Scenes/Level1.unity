@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 55718309}
   - component: {fileID: 55718312}
   - component: {fileID: 55718311}
-  - component: {fileID: 55718310}
+  - component: {fileID: 55718313}
   m_Layer: 0
   m_Name: folha (6)
   m_TagString: Untagged
@@ -224,19 +224,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &55718310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55718308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &55718311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -334,6 +321,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &55718313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55718308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &88380556
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 88380557}
   - component: {fileID: 88380560}
   - component: {fileID: 88380559}
-  - component: {fileID: 88380558}
+  - component: {fileID: 88380561}
   m_Layer: 0
   m_Name: folha (2)
   m_TagString: Untagged
@@ -368,19 +368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &88380558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88380556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &88380559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -478,6 +465,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &88380561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88380556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &214856687
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 379826277}
   - component: {fileID: 379826280}
   - component: {fileID: 379826279}
-  - component: {fileID: 379826278}
+  - component: {fileID: 379826281}
   m_Layer: 0
   m_Name: folha (4)
   m_TagString: Untagged
@@ -642,19 +642,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &379826278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379826276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &379826279
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -752,6 +739,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &379826281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379826276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &394873032
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 394873033}
   - component: {fileID: 394873036}
   - component: {fileID: 394873035}
-  - component: {fileID: 394873034}
+  - component: {fileID: 394873037}
   m_Layer: 0
   m_Name: folha (3)
   m_TagString: Untagged
@@ -786,19 +786,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &394873034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394873032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &394873035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -896,6 +883,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &394873037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394873032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &406669382
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919595d5cfbc228428ef860274b112e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1374932375}
+  textoPontuacao: {fileID: 1374932375}
 --- !u!1 &419435471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1455,7 @@ GameObject:
   - component: {fileID: 573504344}
   - component: {fileID: 573504347}
   - component: {fileID: 573504346}
-  - component: {fileID: 573504345}
+  - component: {fileID: 573504348}
   m_Layer: 0
   m_Name: folha (9)
   m_TagString: Untagged
@@ -1478,19 +1478,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &573504345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573504343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &573504346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1588,6 +1575,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &573504348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573504343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &590763522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,7 +1760,7 @@ GameObject:
   - component: {fileID: 620949642}
   - component: {fileID: 620949645}
   - component: {fileID: 620949644}
-  - component: {fileID: 620949643}
+  - component: {fileID: 620949646}
   m_Layer: 0
   m_Name: folha (10)
   m_TagString: Untagged
@@ -1783,19 +1783,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &620949643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620949641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &620949644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1893,6 +1880,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &620949646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620949641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &629400016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +2165,7 @@ GameObject:
   - component: {fileID: 828770746}
   - component: {fileID: 828770749}
   - component: {fileID: 828770748}
-  - component: {fileID: 828770747}
+  - component: {fileID: 828770750}
   m_Layer: 0
   m_Name: folha (7)
   m_TagString: Untagged
@@ -2188,19 +2188,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &828770747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828770745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &828770748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2298,6 +2285,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &828770750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828770745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &983268341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,7 +2896,7 @@ GameObject:
   - component: {fileID: 1155542694}
   - component: {fileID: 1155542697}
   - component: {fileID: 1155542696}
-  - component: {fileID: 1155542695}
+  - component: {fileID: 1155542698}
   m_Layer: 0
   m_Name: folha
   m_TagString: Untagged
@@ -2919,19 +2919,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1155542695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155542693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &1155542696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3029,6 +3016,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1155542698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155542693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &1236055084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,7 +3654,7 @@ GameObject:
   - component: {fileID: 1330350009}
   - component: {fileID: 1330350012}
   - component: {fileID: 1330350011}
-  - component: {fileID: 1330350010}
+  - component: {fileID: 1330350013}
   m_Layer: 0
   m_Name: folha (1)
   m_TagString: Untagged
@@ -3677,19 +3677,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1330350010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330350008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &1330350011
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3787,6 +3774,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1330350013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330350008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &1367215007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4196,7 +4196,7 @@ GameObject:
   - component: {fileID: 1383222349}
   - component: {fileID: 1383222352}
   - component: {fileID: 1383222351}
-  - component: {fileID: 1383222350}
+  - component: {fileID: 1383222353}
   m_Layer: 0
   m_Name: folha (8)
   m_TagString: Untagged
@@ -4219,19 +4219,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1383222350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383222348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &1383222351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4329,6 +4316,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1383222353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383222348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &1458804442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4340,7 +4340,7 @@ GameObject:
   - component: {fileID: 1458804443}
   - component: {fileID: 1458804446}
   - component: {fileID: 1458804445}
-  - component: {fileID: 1458804444}
+  - component: {fileID: 1458804447}
   m_Layer: 0
   m_Name: folha (5)
   m_TagString: Untagged
@@ -4363,19 +4363,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1458804444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458804442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &1458804445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4473,6 +4460,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1458804447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458804442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &1475273054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4794,7 +4794,7 @@ GameObject:
   - component: {fileID: 1517760532}
   - component: {fileID: 1517760535}
   - component: {fileID: 1517760534}
-  - component: {fileID: 1517760533}
+  - component: {fileID: 1517760536}
   m_Layer: 0
   m_Name: folha (11)
   m_TagString: Untagged
@@ -4817,19 +4817,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075189571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1517760533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517760531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moedaValor: 1
 --- !u!61 &1517760534
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4927,6 +4914,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1517760536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517760531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e8b4e2510a66a47a33eead6e69ff1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moedaValor: 1
 --- !u!1 &1739045556
 GameObject:
   m_ObjectHideFlags: 0
@@ -5838,6 +5838,7 @@ GameObject:
   - component: {fileID: 1921717245}
   - component: {fileID: 1921717244}
   - component: {fileID: 1921717243}
+  - component: {fileID: 1921717248}
   m_Layer: 0
   m_Name: arvore_queimando_v1
   m_TagString: Untagged
@@ -6005,6 +6006,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1921717248
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921717242}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1936186045
 GameObject:
   m_ObjectHideFlags: 0
