@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float raioVerificacaoChao = 0.2f; // Raio para verificar o chão
     public LayerMask camadaSolo; // Definir quais camadas são solo
     private bool olhandoDireita = true; // Para controlar a direção da sprite
+    private int contadorPulos; // Contador de pulos
+    public int maxPulos = 2; // Quantidade máxima de pulos (pulo duplo = 2)
 
     void Start()
     {
@@ -20,6 +22,11 @@ public class PlayerController : MonoBehaviour
     {
         // Checar se o personagem está no chão
         estaChao = Physics2D.OverlapCircle(verificadorDeChao.position, raioVerificacaoChao, camadaSolo);
+
+        if (estaChao)
+        {
+            contadorPulos = 0; // Reseta o contador de pulos ao tocar o chão
+        }
 
         // Movimentação horizontal
         float setas_horizontais = Input.GetAxis("Horizontal");
@@ -35,10 +42,12 @@ public class PlayerController : MonoBehaviour
             InverterSprite();
         }
 
-        // Pular quando no chão
-        if (Input.GetKeyDown(KeyCode.Space) && estaChao == true)
+        // Pular (verifica se ainda há pulos disponíveis)
+        if (Input.GetKeyDown(KeyCode.Space) && contadorPulos < maxPulos)
         {
+            rb.velocity = new Vector2(rb.velocity.x, 0); // Zera a velocidade vertical para pulo mais consistente
             rb.AddForce(pulo * Vector2.up, ForceMode2D.Impulse);
+            contadorPulos++; // Incrementa o contador de pulos
         }
     }
 
@@ -50,18 +59,6 @@ public class PlayerController : MonoBehaviour
         transform.localScale = escalaAtual;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("solo"))
-            estaChao = true;
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        estaChao = false;
-    }
-
-    // Visualizador no editor para verificar o raio de checagem de chão
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

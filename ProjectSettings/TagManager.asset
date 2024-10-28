@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - solo
+  - Fogo
+  - Arvore
   layers:
   - Default
   - TransparentFX
