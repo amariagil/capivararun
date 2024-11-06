@@ -1,22 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
-public class seguir_jogador : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
-    public Transform jogador;  
-    public Vector3 deslocamento;    
-    public float v = 0.125f; 
+    public Transform jogador; // arraste seu personagem aqui no Inspector
+    public Vector3 deslocamento; // ajuste o deslocamento no Inspector para posicionar a câmera como quiser
 
     void LateUpdate()
     {
-        Vector3 posicao_camera = jogador.position + deslocamento;
+        if (jogador != null)
+        {
+            // Posição desejada da câmera com base na posição do jogador + deslocamento
+            Vector3 posicaoDesejada = jogador.position + deslocamento;
 
-        Vector3 seguindo_camera = Vector3.Lerp(transform.position, posicao_camera, v);
-
-        transform.position = seguindo_camera;
+            // Aplica a posição da câmera
+            transform.position = new Vector3(posicaoDesejada.x, posicaoDesejada.y, transform.position.z);
+        }
     }
-
 }
-
