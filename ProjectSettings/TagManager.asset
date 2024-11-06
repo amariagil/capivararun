@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - solo
+  - Fogo
+  - Arvore
+  - Araras_Assassinas
   layers:
   - Default
   - TransparentFX
