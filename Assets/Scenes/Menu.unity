@@ -268,12 +268,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1884642923}
   - {fileID: 44577862}
   - {fileID: 2039110010}
   - {fileID: 958723583}
   - {fileID: 810367265}
   - {fileID: 1925441055}
-  - {fileID: 1884642923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &550390280
@@ -864,7 +864,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1047,7 +1047,7 @@ Transform:
   m_GameObject: {fileID: 1884642920}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.818878, y: -17.970764, z: 5.8908787}
+  m_LocalPosition: {x: 17.818878, y: -17.970764, z: -2}
   m_LocalScale: {x: 1.0004361, y: 0.86287606, z: 1.0004361}
   m_ConstrainProportionsScale: 0
   m_Children: []
