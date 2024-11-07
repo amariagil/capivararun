@@ -11,6 +11,7 @@ public class CapivaraMorte : MonoBehaviour
     {
         popupMorte.SetActive(false);
     }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         // Verifica se a capivara encostou no fogo
@@ -36,7 +37,6 @@ public class CapivaraMorte : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1; // Retoma o jogo
-        popupMorte.SetActive(false); // Esconde o pop-up
-        // Opcional: feche o jogo ou redirecione o jogador para o menu principal
+        SceneManager.LoadScene("Menu"); // Carrega a cena do menu principal
     }
 }
