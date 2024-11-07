@@ -7,7 +7,7 @@ public class BotaoMenu : MonoBehaviour
     // Função que será chamada pelo botão
     public void IrParaMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene(0);
         Debug.Log("Ir para o menu");
 
     }

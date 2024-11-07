@@ -1392,8 +1392,8 @@ Transform:
   - {fileID: 503873918}
   - {fileID: 2085933859}
   - {fileID: 1408371692}
-  - {fileID: 715803654}
   - {fileID: 1405954739}
+  - {fileID: 715803654}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084732754
@@ -1480,10 +1480,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 079826936bb7da54e991a59f10cbfc79, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 2084732759}
+        m_TargetAssemblyTypeName: BotaoMenu, Assembly-CSharp
+        m_MethodName: IrParaMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
